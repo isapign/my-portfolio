@@ -1,0 +1,16 @@
+.header-div {
+    background: #f0f;
+    margin: 0
+}
+
+.header-ul {
+    display: inline
+}
+
+.header-li {
+    display: inline
+}
+
+.header-signup {
+    padding: 10px
+}
