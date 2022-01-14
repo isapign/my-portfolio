@@ -1,10 +1,14 @@
+import { Grid, Typography } from "@material-ui/core"
 import React from "react"
 
 const Introduction = () => {
     return ( 
-        <div id="introduction">
-            <span>Hi, I'm Isa</span>
-        </div>
+        <Grid container id="introduction" justifyContent="center">
+            <Grid item xs={8}>
+                <Typography variant="h1">hi, heyo here</Typography>
+                <Typography variant="h2">I create stuff sometimes</Typography>
+            </Grid>
+        </Grid>
     )
 }
 
