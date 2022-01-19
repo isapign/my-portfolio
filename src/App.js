@@ -1,13 +1,12 @@
 import React from 'react'
-import Introduction from './components/introduction/Introduction';
-import Toolbar from './components/toolbar/Toolbar';
+import Body from './components/Body'
+import Toolbar from './components/toolbar/Toolbar'
 
 const App = () => {
-  
   return (
     <div>
       <Toolbar />
-      <Introduction />
+      <Body />
     </div>
   )
 }
