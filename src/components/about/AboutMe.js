@@ -25,50 +25,6 @@ const AboutMe = () => {
                 <Typography variant="h5">
                     Here are some technologies I have been working on:
                 </Typography>
-                <List>
-                    <ListItem>
-                        <ListItemIcon>
-                            <ArrowRightIcon />
-                        </ListItemIcon>
-                    <ListItemText primary="Javascript ES6+" />
-                    </ListItem>
-                    <ListItem>
-                        <ListItemIcon>
-                            <ArrowRightIcon />
-                        </ListItemIcon>
-                    <ListItemText primary="React.js" />
-                    </ListItem>
-                    <ListItem>
-                        <ListItemIcon>
-                            <ArrowRightIcon />
-                        </ListItemIcon>
-                    <ListItemText primary="Ruby" />
-                    </ListItem>
-                    <ListItem>
-                        <ListItemIcon>
-                            <ArrowRightIcon />
-                        </ListItemIcon>
-                    <ListItemText primary="Python" />
-                    </ListItem>
-                    <ListItem>
-                        <ListItemIcon>
-                            <ArrowRightIcon />
-                        </ListItemIcon>
-                    <ListItemText primary="Java" />
-                    </ListItem>
-                    <ListItem>
-                        <ListItemIcon>
-                            <ArrowRightIcon />
-                        </ListItemIcon>
-                    <ListItemText primary="Robot Framework" />
-                    </ListItem>
-                    <ListItem>
-                        <ListItemIcon>
-                            <ArrowRightIcon />
-                        </ListItemIcon>
-                    <ListItemText primary="HTML & CSS" />
-                    </ListItem>
-                </List>
             </Grid>
         </Grid>
     )

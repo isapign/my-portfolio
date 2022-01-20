@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Grid, List, ListItem, Switch, Typography } from '@material-ui/core'
+import { Button, Grid, List, ListItem, Switch, Typography, IconButton } from '@material-ui/core'
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
@@ -15,33 +15,35 @@ const Toolbar = () => {
     const [switchTheme, setSwitchTheme] = useState(false)
 
     return (
-        <Grid id="toolbar">
-            <Grid item>
-            </Grid>
+        <Grid container justifyContent="flex-end">
             <Grid item>
                 <List className={classes.root}>
                     <ListItem>
-                        <Typography>heyo</Typography> 
-                    </ListItem>
-                    <ListItem>
-                        <Button>Home</Button>
+                        <Button>home</Button>
                     </ListItem>
                     <ListItem>
                         <Button>about</Button>
                     </ListItem>
                     <ListItem>
-                        <Button>experience</Button>
+                        <Button>skills</Button>
+                    </ListItem>
+                    <ListItem>
+                        <Button>career</Button>
                     </ListItem>
                     <ListItem>
                         <Button>projects</Button>
                     </ListItem>
                     <ListItem>
-                        <Switch
-                            checked={switchTheme}
-                            onChange={e => setSwitchTheme(e.target.checked)}
+                        <Button>contact</Button>
+                    </ListItem>
+                    <ListItem>
+                        <IconButton
+                            value={switchTheme}
+                            onChange={e => setSwitchTheme(e.target.value)}
+                            aria-label="change color theme"
                         >
-                            projects
-                        </Switch>
+                            c
+                        </IconButton>
                     </ListItem>
                 </List>
             </Grid>

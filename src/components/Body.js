@@ -10,12 +10,6 @@ const Body = () => {
             <Grid item>
                 <Introduction />
             </Grid>
-            <Grid item>
-                <AboutMe />
-            </Grid>
-            <Grid item>
-                <Experience />
-            </Grid>
         </Grid>
     )
 }
